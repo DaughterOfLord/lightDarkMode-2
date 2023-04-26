@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mode-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.mode-btn {
+  height: 25px;
+  width: 110px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+}
